@@ -4,7 +4,7 @@ import pandas as pd
 base_url = "https://yahoo-finance127.p.rapidapi.com/"
 
 headers = {
-	"X-RapidAPI-Key": "380394e003msh093fbd9d9478c11p19ea7ajsn745a00e7cf1d",
+	"X-RapidAPI-Key": "SECRET",
 	"X-RapidAPI-Host": "yahoo-finance127.p.rapidapi.com"
 }
 
