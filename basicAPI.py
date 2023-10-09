@@ -1,6 +1,6 @@
 import requests
 #weather
-API_KEY = "3a97d68ab15c30478f924c4ebe0a4106"
+API_KEY = "SECRET"
 WS_URL = "http://api.weatherstack.com/current"
 
 cities = []
