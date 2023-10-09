@@ -23,7 +23,7 @@ for city in cities:
 
 #market watch
 
-api = '1caed9dc26a45f044888ade8918e1ca5'
+api = 'SECRET'
 url = f'http://api.marketstack.com/v1/eod'
 
 stocks = []
