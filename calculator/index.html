@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <input class="display-container" id = "display" readonly>
+
+    </input>
+        <div class="button-container">
+            <button onclick = "add('1')"class="buttons numbers" data-value="1">1</button>
+            <button onclick = "add('2')"class="buttons numbers" data-value="2">2</button>
+            <button onclick = "add('3')"class="buttons numbers" data-value="3">3</button>
+            <button onclick = "add('+')"class="buttons signs" data-value="+">+</button>
+            <button onclick = "add('4')"class="buttons numbers" data-value="4">4</button>
+            <button onclick = "add('5')"class="buttons numbers" data-value="5">5</button>
+            <button onclick = "add('6')"class="buttons numbers" data-value="6">6</button>
+            <button onclick = "add('-')"class="buttons signs" data-value="-">-</button>
+            <button onclick = "add('7')"class="buttons numbers" data-value="7">7</button>
+            <button onclick = "add('8')"class="buttons numbers" data-value="8">8</button>
+            <button onclick = "add('9')"class="buttons numbers" data-value="9">9</button>
+            <button onclick = "add('*')"class="buttons signs" data-value="*">x</button>
+            <button onclick = "add('0')"class="buttons numbers" data-value="0">0</button>
+            <button onclick = "clearDisplay()"class="buttons signs" data-value="" >C</button>
+            <button onclick = "evaluateDisplay()"class="buttons signs" data-value="=">=</button>
+            <button onclick = "add('/')"class="buttons signs" data-value="/">/</button>
+
+        </div>
+    </div>
+</body>
+</html>
